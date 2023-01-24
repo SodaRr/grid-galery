@@ -132,6 +132,7 @@ p {
 @media (max-width: 500px) {
     .overlay-inner {
         max-width: 400px;
+        padding: 10px;
     }
 }
 
