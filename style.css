@@ -128,3 +128,21 @@ p {
 .item.h4 {
     grid-column: span 4;
 }
+
+@media (max-width: 500px) {
+    .overlay-inner {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 400px) {
+    .overlay-inner {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 300px) {
+    .overlay-inner {
+        max-width: 200px;
+    }
+}
